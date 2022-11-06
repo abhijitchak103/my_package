@@ -1,0 +1,49 @@
+INFO:root:Initialization succeeded.
+INFO:root:Initialization succeeded.
+ERROR:root:Append function failed. Error Code: can only assign an iterable
+INFO:root:Initialization succeeded.
+ERROR:root:Append function failed. Error Code: can only assign an iterable
+INFO:root:Initialization succeeded.
+ERROR:root:Append function failed. Error Code: can only assign an iterable
+INFO:root:Initialization succeeded.
+ERROR:root:Append function failed. Error Code: can only assign an iterable
+INFO:root:Initialization succeeded.
+2022-11-05 20:13:24,508 INFO Initialization succeeded.
+2022-11-05 20:15:34,826 ERROR Incorrect input type. Expected input is a list.
+2022-11-05 20:19:06,590 INFO Initialization succeeded.
+2022-11-05 20:19:06,590 ERROR Append function failed. Error Code: 'int' object is not iterable
+2022-11-05 20:21:42,596 INFO Initialization succeeded.
+2022-11-05 20:21:42,596 ERROR Append function failed. Error Code: 'int' object is not iterable
+2022-11-05 20:21:55,252 INFO Initialization succeeded.
+2022-11-05 20:21:55,252 ERROR Append function failed. Error Code: 'int' object is not iterable
+2022-11-05 20:25:36,295 INFO Initialization succeeded.
+2022-11-05 20:25:36,295 ERROR Append function failed. Error Code: 'int' object is not iterable
+2022-11-05 20:27:30,902 INFO Initialization succeeded.
+2022-11-05 20:27:30,902 INFO Append function succeeded.
+2022-11-05 20:27:44,842 INFO Initialization succeeded.
+2022-11-05 20:27:44,842 INFO Append function succeeded.
+2022-11-05 20:29:02,781 INFO Initialization succeeded.
+2022-11-05 20:29:02,781 INFO Append function succeeded.
+2022-11-05 20:29:45,318 INFO Initialization succeeded.
+2022-11-05 20:29:45,318 INFO Append function succeeded.
+2022-11-05 20:41:22,333 INFO Initialization succeeded.
+2022-11-05 20:41:22,333 INFO Append function succeeded.
+2022-11-05 20:41:34,321 INFO Initialization succeeded.
+2022-11-05 20:41:34,321 INFO Append function succeeded.
+2022-11-05 20:42:35,988 INFO Initialization succeeded.
+2022-11-05 20:42:36,003 ERROR Append function failed. Error Code: local variable 'res' referenced before assignment
+2022-11-05 20:43:12,417 INFO Initialization succeeded.
+2022-11-05 20:43:12,417 INFO Append function succeeded.
+2022-11-05 20:46:30,454 INFO Initialization succeeded.
+2022-11-05 20:46:30,454 INFO Append function succeeded.
+2022-11-05 20:46:50,314 INFO Initialization succeeded.
+2022-11-05 20:46:50,314 INFO Append function succeeded.
+2022-11-06 10:02:35,919 INFO Initialization succeeded.
+2022-11-06 10:02:35,919 INFO Append function succeeded.
+2022-11-06 10:05:16,093 INFO Initialization succeeded.
+2022-11-06 10:05:16,094 INFO Append function succeeded.
+2022-11-06 10:28:52,822 INFO Initialization succeeded.
+2022-11-06 10:28:52,822 INFO Append function succeeded.
+2022-11-06 10:29:13,126 INFO Initialization succeeded.
+2022-11-06 10:29:13,127 INFO Append function succeeded.
+2022-11-06 10:31:44,906 INFO Initialization succeeded.
