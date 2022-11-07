@@ -48,7 +48,7 @@ class listfunctions:
             self.l = self.l + x
             logging.info("Extend function succeeded.")
         except Exception as e:
-            logging.exception(f"Extend function failed. Error Code: " {e})
+            logging.exception(f"Extend function failed. Error Code: {e}")
             raise e
         return self.l
 
@@ -69,7 +69,7 @@ class listfunctions:
                 self.l = self.l[:i] + [i] + self.l[i+1:]
                 logging.info(f"{i} inserted at Index {x}")
         except Exception as e:
-            logging.exception("Exception encountered.")
+            logging.exception(f"Exception encountered. Exception: {e}")
             raise e
         return self.l
 
