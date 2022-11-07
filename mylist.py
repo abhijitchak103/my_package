@@ -33,7 +33,7 @@ class listfunctions:
             self.l = self.l + [x]
             logging.info("Append function succeeded.")
         except Exception as e:
-            logging.error(f"Append function failed. Error Code: {e}")
+            logging.exception(f"Append function failed. Error Code: {e}")
             raise e
         return self.l
 
@@ -48,7 +48,7 @@ class listfunctions:
             self.l = self.l + x
             logging.info("Extend function succeeded.")
         except Exception as e:
-            logging.error(f"Extend function failed. Error Code: " {e})
+            logging.exception(f"Extend function failed. Error Code: " {e})
             raise e
         return self.l
 
@@ -58,7 +58,20 @@ class listfunctions:
         The first argument is the index of the element before which to insert, 
         so a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).    
         """
-        return 1
+        try:
+            if x == 0:
+                self.l = [i] + self.l
+                logging.info(f"{i} inserted at Index 0")
+            elif x >= len(self.l):
+                self.l = self.l + [i]
+                logging.info(f"{i} inserted at Index {len(self.l) - 1}")
+            else:    
+                self.l = self.l[:i] + [i] + self.l[i+1:]
+                logging.info(f"{i} inserted at Index {x}")
+        except Exception as e:
+            logging.exception("Exception encountered.")
+            raise e
+        return self.l
 
     def myremove(x):
         """
