@@ -62,7 +62,7 @@ class listfunctions:
             if x == 0:
                 self.l = [i] + self.l
                 logging.info(f"{i} inserted at Index 0")
-            elif x >= len(self.l):
+            elif x >= len(self.l) - 1:
                 self.l = self.l + [i]
                 logging.info(f"{i} inserted at Index {len(self.l) - 1}")
             else:    
