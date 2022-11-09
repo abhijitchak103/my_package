@@ -48,11 +48,11 @@ class listfunctions:
         try:
             if isinstance(x, Iterable):
                 for i in x:
-                    self.l.myappend(i)
+                    self.l = self.l + [i]
                     logging.info(f"Extend function succeeded. Appended {i}")
             elif type(x) == dict:
                 for i in x.keys():
-                    self.l.myappend(i)
+                    self.l = self.l + [i]
                     logging.info(f"Extend function succeeded. Appended {i}")
         except Exception as e:
             logging.exception(f"Extend function failed. Error Code: {e}")
@@ -65,16 +65,26 @@ class listfunctions:
         The first argument is the index of the element before which to insert, 
         so a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).    
         """
+        i = int(i)
+
         try:
-            if x == 0:
-                self.l = [i] + self.l
-                logging.info(f"{i} inserted at Index 0")
-            elif x >= len(self.l) - 1:
-                self.l = self.l + [i]
-                logging.info(f"{i} inserted at Index {len(self.l) - 1}")
+            if i == 0:
+                self.l = [x] + self.l
+                logging.info(f"{x} inserted at Index 0")
+            elif i >= len(self.l) - 1:
+                self.l = self.l + [x]
+                logging.info(f"{x} inserted at Index {len(self.l) - 1}")
+            
+            # Rwquired to add code for negative indices
+            
+            # elif i < 0:
+            #     j = i
+            #     i = len(self.l) - i
+            #     self.l = self.l[:i] + [x] + self.l[i:]
+            #     logging.info(f"{x} inserted at Index {j}")
             else:    
-                self.l = self.l[:i] + [i] + self.l[i+1:]
-                logging.info(f"{i} inserted at Index {x}")
+                self.l = self.l[:i] + [x] + self.l[i:]
+                logging.info(f"{x} inserted at Index {i}")
         except Exception as e:
             logging.exception(f"Exception encountered. Exception: {e}")
             raise e

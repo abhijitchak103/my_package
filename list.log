@@ -49,3 +49,92 @@ INFO:root:Initialization succeeded.
 2022-11-06 10:31:44,906 INFO Initialization succeeded.
 2022-11-09 14:03:09,503 INFO Initialization succeeded.
 2022-11-09 14:03:09,503 INFO Append function succeeded.
+2022-11-09 18:52:57,103 INFO Initialization succeeded.
+2022-11-09 18:52:57,104 INFO Append function succeeded.
+2022-11-09 18:56:34,630 INFO Initialization succeeded.
+2022-11-09 18:56:34,631 INFO Append function succeeded.
+2022-11-09 18:57:04,566 INFO Initialization succeeded.
+2022-11-09 18:57:04,567 INFO Append function succeeded.
+2022-11-09 18:57:30,082 INFO Initialization succeeded.
+2022-11-09 18:57:30,083 INFO Append function succeeded.
+2022-11-09 18:57:30,084 ERROR Extend function failed. Error Code: 'list' object has no attribute 'myappend'
+Traceback (most recent call last):
+  File "c:\Users\Abhijit\git\my_package\mylist.py", line 51, in myextend
+    self.l.myappend(i)
+AttributeError: 'list' object has no attribute 'myappend'
+2022-11-09 19:02:08,977 INFO Initialization succeeded.
+2022-11-09 19:02:08,978 INFO Append function succeeded.
+2022-11-09 19:02:08,979 INFO Extend function succeeded. Appended lo
+2022-11-09 19:02:08,979 INFO Extend function succeeded. Appended 2
+2022-11-09 19:02:08,979 INFO Extend function succeeded. Appended 5
+2022-11-09 19:04:28,104 INFO Initialization succeeded.
+2022-11-09 19:04:28,104 INFO Append function succeeded.
+2022-11-09 19:04:28,104 INFO Extend function succeeded. Appended lo
+2022-11-09 19:04:28,104 INFO Extend function succeeded. Appended 2
+2022-11-09 19:04:28,105 INFO Extend function succeeded. Appended 5
+2022-11-09 19:04:28,105 ERROR Exception encountered. Exception: '>=' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "c:\Users\Abhijit\git\my_package\mylist.py", line 72, in myinsert
+    elif x >= len(self.l) - 1:
+TypeError: '>=' not supported between instances of 'str' and 'int'
+2022-11-09 19:05:15,000 INFO Initialization succeeded.
+2022-11-09 19:05:15,001 INFO Append function succeeded.
+2022-11-09 19:05:15,002 INFO Extend function succeeded. Appended lo
+2022-11-09 19:05:15,002 INFO Extend function succeeded. Appended 2
+2022-11-09 19:05:15,003 INFO Extend function succeeded. Appended 5
+2022-11-09 19:05:55,418 INFO Initialization succeeded.
+2022-11-09 19:05:55,419 INFO Append function succeeded.
+2022-11-09 19:05:55,420 INFO Extend function succeeded. Appended lo
+2022-11-09 19:05:55,420 INFO Extend function succeeded. Appended 2
+2022-11-09 19:05:55,420 INFO Extend function succeeded. Appended 5
+2022-11-09 19:05:55,422 INFO 0 inserted at Index 0
+2022-11-09 19:05:55,423 INFO 5 inserted at Index abhijit
+2022-11-09 19:05:55,424 INFO -1 inserted at Index abhijit
+2022-11-09 19:07:24,723 INFO Initialization succeeded.
+2022-11-09 19:07:24,723 INFO Append function succeeded.
+2022-11-09 19:07:24,724 INFO Extend function succeeded. Appended lo
+2022-11-09 19:07:24,724 INFO Extend function succeeded. Appended 2
+2022-11-09 19:07:24,724 INFO Extend function succeeded. Appended 5
+2022-11-09 19:07:24,726 INFO abhijit inserted at Index 0
+2022-11-09 19:07:24,727 INFO abhijit inserted at Index abhijit
+2022-11-09 19:07:24,728 INFO abhijit inserted at Index abhijit
+2022-11-09 19:07:57,783 INFO Initialization succeeded.
+2022-11-09 19:07:57,784 INFO Append function succeeded.
+2022-11-09 19:07:57,785 INFO Extend function succeeded. Appended lo
+2022-11-09 19:07:57,785 INFO Extend function succeeded. Appended 2
+2022-11-09 19:07:57,785 INFO Extend function succeeded. Appended 5
+2022-11-09 19:07:57,786 INFO abhijit inserted at Index 0
+2022-11-09 19:07:57,788 INFO abhijit inserted at Index abhijit
+2022-11-09 19:07:57,789 INFO abhijit inserted at Index abhijit
+2022-11-09 19:20:04,489 INFO Initialization succeeded.
+2022-11-09 19:20:04,489 INFO Append function succeeded.
+2022-11-09 19:20:04,491 INFO Extend function succeeded. Appended lo
+2022-11-09 19:20:04,491 INFO Extend function succeeded. Appended 2
+2022-11-09 19:20:04,491 INFO Extend function succeeded. Appended 5
+2022-11-09 19:20:04,492 INFO abhijit inserted at Index 0
+2022-11-09 19:20:04,493 INFO abhijit inserted at Index abhijit
+2022-11-09 19:20:04,494 INFO abhijit inserted at Index -1
+2022-11-09 19:20:21,042 INFO Initialization succeeded.
+2022-11-09 19:20:21,043 INFO Append function succeeded.
+2022-11-09 19:20:21,043 INFO Extend function succeeded. Appended lo
+2022-11-09 19:20:21,043 INFO Extend function succeeded. Appended 2
+2022-11-09 19:20:21,044 INFO Extend function succeeded. Appended 5
+2022-11-09 19:20:21,044 INFO abhijit inserted at Index 0
+2022-11-09 19:20:21,045 INFO abhijit inserted at Index abhijit
+2022-11-09 19:20:21,047 INFO abhijit inserted at Index -2
+2022-11-09 19:22:09,805 INFO Initialization succeeded.
+2022-11-09 19:22:09,806 INFO Append function succeeded.
+2022-11-09 19:22:09,806 INFO Extend function succeeded. Appended lo
+2022-11-09 19:22:09,806 INFO Extend function succeeded. Appended 2
+2022-11-09 19:22:09,807 INFO Extend function succeeded. Appended 5
+2022-11-09 19:22:09,807 INFO abhijit inserted at Index 0
+2022-11-09 19:22:09,808 INFO abhijit inserted at Index abhijit
+2022-11-09 19:22:09,809 INFO abhijit inserted at Index 9
+2022-11-09 19:23:28,152 INFO Initialization succeeded.
+2022-11-09 19:23:28,153 INFO Append function succeeded.
+2022-11-09 19:23:28,153 INFO Extend function succeeded. Appended lo
+2022-11-09 19:23:28,154 INFO Extend function succeeded. Appended 2
+2022-11-09 19:23:28,154 INFO Extend function succeeded. Appended 5
+2022-11-09 19:23:28,154 INFO abhijit inserted at Index 0
+2022-11-09 19:23:28,155 INFO abhijit inserted at Index 5
+2022-11-09 19:23:28,156 INFO abhijit inserted at Index 9
