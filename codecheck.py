@@ -1,6 +1,6 @@
-import mylist
+from mylist import *
 
-l = [1,4,6]
+l = listfunctions([1,4,6])
 
-l.extend([5,6,7])
+l.myappend([5,6,7])
 print(l)

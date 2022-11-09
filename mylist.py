@@ -3,6 +3,7 @@ This is a custom module for using basic list functions
 """
 
 # Importing important libraries
+from _collections_abc import Iterable
 import logging
 logging.basicConfig(filename="list.log", level=logging.DEBUG, \
                     format='%(asctime)s %(levelname)s %(message)s')
@@ -21,8 +22,8 @@ class listfunctions:
             logging.error("Error Code: ", e)
             raise e
 
-    def __str__(self):
-        return self.l
+#    def __str__(self):
+#        return self.l
 
     # Defining the append function as myappend
     def myappend(self, x):
@@ -35,24 +36,30 @@ class listfunctions:
         except Exception as e:
             logging.exception(f"Append function failed. Error Code: {e}")
             raise e
-        return self.l
+#        return self.l
 
         # Unable to get the list as a result. Producing class as an output.
 
-    def myextend(self, x: list):
+    def myextend(self, x):
         """
         Extend the list by appending all the items from the iterable. 
         Equivalent to a[len(a):] = iterable.    
         """
         try:
-            self.l = self.l + x
-            logging.info("Extend function succeeded.")
+            if isinstance(x, Iterable):
+                for i in x:
+                    self.l.myappend(i)
+                    logging.info(f"Extend function succeeded. Appended {i}")
+            elif type(x) == dict:
+                for i in x.keys():
+                    self.l.myappend(i)
+                    logging.info(f"Extend function succeeded. Appended {i}")
         except Exception as e:
             logging.exception(f"Extend function failed. Error Code: {e}")
             raise e
-        return self.l
+#        return self.l
 
-    def myinsert(i, x):
+    def myinsert(self, i, x):
         """
         Insert an item at a given position. 
         The first argument is the index of the element before which to insert, 
@@ -71,7 +78,7 @@ class listfunctions:
         except Exception as e:
             logging.exception(f"Exception encountered. Exception: {e}")
             raise e
-        return self.l
+#        return self.l
 
     def myremove(x):
         """
