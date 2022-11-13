@@ -22,9 +22,6 @@ class listfunctions:
             logging.error("Error Code: ", e)
             raise e
 
-#    def __str__(self):
-#        return self.l
-
     # Defining the append function as myappend
     def append(self, x):
         """
@@ -36,9 +33,6 @@ class listfunctions:
         except Exception as e:
             logging.exception(f"Append function failed. Error Code: {e}")
             raise e
-#        return self.l
-
-        # Unable to get the list as a result. Producing class as an output.
 
     def extend(self, x):
         """
@@ -57,7 +51,6 @@ class listfunctions:
         except Exception as e:
             logging.exception(f"Extend function failed. Error Code: {e}")
             raise e
-#        return self.l
 
     def insert(self, i, x):
         """
@@ -88,7 +81,6 @@ class listfunctions:
         except Exception as e:
             logging.exception(f"Exception encountered. Exception: {e}")
             raise e
-#        return self.l
 
     def remove(self, x):
         """
@@ -126,7 +118,6 @@ class listfunctions:
             raise e
             logging.exception(f"Encountered Exception: {e}")
                 
-
     def clear(self):
         """
         Remove all items from the list. Equivalent to del a[:].
