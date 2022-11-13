@@ -26,7 +26,7 @@ class listfunctions:
 #        return self.l
 
     # Defining the append function as myappend
-    def myappend(self, x):
+    def append(self, x):
         """
         Add an item to the end of the list.
         """
@@ -40,7 +40,7 @@ class listfunctions:
 
         # Unable to get the list as a result. Producing class as an output.
 
-    def myextend(self, x):
+    def extend(self, x):
         """
         Extend the list by appending all the items from the iterable. 
         Equivalent to a[len(a):] = iterable.    
@@ -59,7 +59,7 @@ class listfunctions:
             raise e
 #        return self.l
 
-    def myinsert(self, i, x):
+    def insert(self, i, x):
         """
         Insert an item at a given position. 
         The first argument is the index of the element before which to insert, 
@@ -75,7 +75,7 @@ class listfunctions:
                 self.l = self.l + [x]
                 logging.info(f"{x} inserted at Index {len(self.l) - 1}")
             
-            # Rwquired to add code for negative indices
+            # Required to add code for negative indices
             
             # elif i < 0:
             #     j = i
@@ -90,53 +90,68 @@ class listfunctions:
             raise e
 #        return self.l
 
-    def myremove(x):
+    def remove(self, x):
         """
         Remove the first item from the list whose value is equal to x. 
         It raises a ValueError if there is no such item.    
         """
-        return 1
+        try:
+            for i in range(len(self.l)):
+                if self.l[i] == x:
+                    self.l = self.l[:i] + self.l[i+1:]
+                    logging.info(f"Successfully removed {x}")
+                    break
+        except ValueError:
+            raise f"ValueError: {x} not found in list"
+            logging.error(f"{x} not found in list")
+        except Exception as e:
+            raise e
+            logging.exception(f"Encountered Exception: {e}")
 
-    def mypop(i):
+    def pop(self, i):
         """
         Remove the item at the given position in the list, and return it. 
         If no index is specified, a.pop() removes and returns the last item in the list.   
         """
-        return 1
+        try:
+            for i in range(len(self.l)):
+                pass
+        except:
+            pass        
 
     def myclear():
         """
         Remove all items from the list. Equivalent to del a[:].
         """
-        return 1
+        pass
 
     def myindex(x):
         """
         Return zero-based index in the list of the first item whose value is equal to x. 
         Raises a ValueError if there is no such item.
         """
-        return 1
+        pass
 
     def mycount(x):
         """
         Return the number of times x appears in the list.    
         """
-        return 1
+        pass
 
     def mysort(*, key=None, reverse=False):
         """
         Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).
         """
-        return 1
+        pass
 
     def myreverse():
         """
         Reverse the elements of the list in place.
         """
-        return 1
-
+    
     def mycopy():
         """
         Return a shallow copy of the list. Equivalent to a[:].    
         """
-        return 1
+        pass    
+        
