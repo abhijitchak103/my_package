@@ -138,3 +138,74 @@ TypeError: '>=' not supported between instances of 'str' and 'int'
 2022-11-09 19:23:28,154 INFO abhijit inserted at Index 0
 2022-11-09 19:23:28,155 INFO abhijit inserted at Index 5
 2022-11-09 19:23:28,156 INFO abhijit inserted at Index 9
+2022-11-13 11:37:39,297 INFO Initialization succeeded.
+2022-11-13 11:38:06,525 INFO Initialization succeeded.
+2022-11-13 11:38:06,525 INFO Append function succeeded.
+2022-11-13 11:38:06,533 INFO Extend function succeeded. Appended lo
+2022-11-13 11:38:06,533 INFO Extend function succeeded. Appended 2
+2022-11-13 11:38:06,533 INFO Extend function succeeded. Appended 5
+2022-11-13 11:38:06,533 INFO abhijit inserted at Index 0
+2022-11-13 11:38:06,533 INFO abhijit inserted at Index 5
+2022-11-13 11:38:06,533 INFO abhijit inserted at Index 9
+2022-11-13 11:39:45,455 INFO Initialization succeeded.
+2022-11-13 11:39:45,455 INFO Append function succeeded.
+2022-11-13 11:39:45,464 INFO Extend function succeeded. Appended lo
+2022-11-13 11:39:45,464 INFO Extend function succeeded. Appended 2
+2022-11-13 11:39:45,464 INFO Extend function succeeded. Appended 5
+2022-11-13 11:39:45,464 INFO abhijit inserted at Index 0
+2022-11-13 11:39:45,464 INFO abhijit inserted at Index 5
+2022-11-13 11:39:45,464 INFO abhijit inserted at Index 9
+2022-11-13 11:39:45,472 INFO Successfully removed abhijit
+2022-11-13 11:45:05,947 INFO Initialization succeeded.
+2022-11-13 11:45:05,947 INFO Append function succeeded.
+2022-11-13 11:45:05,955 INFO Extend function succeeded. Appended lo
+2022-11-13 11:45:05,955 INFO Extend function succeeded. Appended 2
+2022-11-13 11:45:05,955 INFO Extend function succeeded. Appended 5
+2022-11-13 11:45:05,955 INFO abhijit inserted at Index 0
+2022-11-13 11:45:05,955 INFO abhijit inserted at Index 5
+2022-11-13 11:45:05,955 INFO abhijit inserted at Index 9
+2022-11-13 11:45:05,955 INFO Successfully removed abhijit
+2022-11-13 11:45:05,963 INFO Successfully popped element at 5th position
+2022-11-13 11:45:46,750 INFO Initialization succeeded.
+2022-11-13 11:45:46,750 INFO Append function succeeded.
+2022-11-13 11:45:46,750 INFO Extend function succeeded. Appended lo
+2022-11-13 11:45:46,765 INFO Extend function succeeded. Appended 2
+2022-11-13 11:45:46,765 INFO Extend function succeeded. Appended 5
+2022-11-13 11:45:46,765 INFO abhijit inserted at Index 0
+2022-11-13 11:45:46,765 INFO abhijit inserted at Index 5
+2022-11-13 11:45:46,765 INFO abhijit inserted at Index 9
+2022-11-13 11:45:46,765 INFO Successfully removed abhijit
+2022-11-13 11:45:46,765 INFO Successfully popped element at 5th position
+2022-11-13 11:48:58,457 INFO Initialization succeeded.
+2022-11-13 11:48:58,457 INFO Append function succeeded.
+2022-11-13 11:48:58,468 INFO Extend function succeeded. Appended lo
+2022-11-13 11:48:58,468 INFO Extend function succeeded. Appended 2
+2022-11-13 11:48:58,468 INFO Extend function succeeded. Appended 5
+2022-11-13 11:48:58,468 INFO abhijit inserted at Index 0
+2022-11-13 11:48:58,468 INFO abhijit inserted at Index 5
+2022-11-13 11:48:58,468 INFO abhijit inserted at Index 9
+2022-11-13 11:48:58,468 INFO Successfully removed abhijit
+2022-11-13 11:48:58,476 INFO Successfully popped element at 5th position
+2022-11-13 11:48:58,476 INFO Successfully cleared the list
+2022-11-13 11:58:15,026 INFO Initialization succeeded.
+2022-11-13 11:58:15,026 INFO Append function succeeded.
+2022-11-13 11:58:15,030 INFO Extend function succeeded. Appended lo
+2022-11-13 11:58:15,030 INFO Extend function succeeded. Appended 2
+2022-11-13 11:58:15,030 INFO Extend function succeeded. Appended 5
+2022-11-13 11:58:15,030 INFO abhijit inserted at Index 0
+2022-11-13 11:58:15,038 INFO abhijit inserted at Index 5
+2022-11-13 11:58:15,046 INFO abhijit inserted at Index 9
+2022-11-13 11:58:15,046 INFO Successfully removed abhijit
+2022-11-13 11:58:15,054 INFO Successfully popped element at 5th position
+2022-11-13 11:58:15,062 INFO Successfully cleared the list
+2022-11-13 11:58:24,817 INFO Initialization succeeded.
+2022-11-13 11:58:24,817 INFO Append function succeeded.
+2022-11-13 11:58:24,829 INFO Extend function succeeded. Appended lo
+2022-11-13 11:58:24,829 INFO Extend function succeeded. Appended 2
+2022-11-13 11:58:24,829 INFO Extend function succeeded. Appended 5
+2022-11-13 11:58:24,829 INFO abhijit inserted at Index 0
+2022-11-13 11:58:24,829 INFO abhijit inserted at Index 5
+2022-11-13 11:58:24,829 INFO abhijit inserted at Index 9
+2022-11-13 11:58:24,837 INFO Successfully removed abhijit
+2022-11-13 11:58:24,845 INFO Successfully popped element at 5th position
+2022-11-13 11:58:24,853 INFO Successfully cleared the list

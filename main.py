@@ -4,32 +4,54 @@ l = [1,2,3]
 obj = listfunctions(l)
 
 print(f"Instance before append: {obj.l}")
-obj.myappend([5,6,7])
+obj.append([5,6,7])
 print(f"Instance after append: {obj.l}")
 
 print("---------------------------------")
 e = ["lo", 2, 5]
 
 print(f"Instance before extend: {obj.l}")
-obj.myextend(e)
+obj.extend(e)
 print(f"Instance after append: {obj.l}")
 
 print("---------------------------------")
 
 print(f"Instance before insert: {obj.l}")
-obj.myinsert(0, "abhijit")
+obj.insert(0, "abhijit")
 print(f"Instance after insert: {obj.l}")
 
 print("---------------------------------")
 
 print(f"Instance before insert: {obj.l}")
-obj.myinsert(5, "abhijit")
+obj.insert(5, "abhijit")
 print(f"Instance after insert: {obj.l}")
 
 print("---------------------------------")
 
 print(f"Instance before insert: {obj.l}")
-obj.myinsert(100, "abhijit")
+obj.insert(100, "abhijit")
 print(f"Instance after insert: {obj.l}")
+
+print("---------------------------------")
+
+print(f"Instance before remove: {obj.l}")
+obj.remove("abhijit")
+print(f"Instance after remove: {obj.l}")
+
+print("---------------------------------")
+
+print(f"Instance before pop: {obj.l}")
+obj.pop(5)
+print(f"Instance after pop: {obj.l}")
+
+print("---------------------------------")
+
+print(f"Index of '3' in the list is: {obj.l.index(3)}")
+
+print("---------------------------------")
+
+print(f"Instance before clear: {obj.l}")
+obj.clear()
+print(f"Instance after clear: {obj.l}")
 
 print("---------------------------------")

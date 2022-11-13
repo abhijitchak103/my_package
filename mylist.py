@@ -102,7 +102,7 @@ class listfunctions:
                     logging.info(f"Successfully removed {x}")
                     break
         except ValueError:
-            raise f"ValueError: {x} not found in list"
+            raise (f"ValueError: {x} not found in list")
             logging.error(f"{x} not found in list")
         except Exception as e:
             raise e
@@ -114,23 +114,46 @@ class listfunctions:
         If no index is specified, a.pop() removes and returns the last item in the list.   
         """
         try:
-            for i in range(len(self.l)):
-                pass
-        except:
-            pass        
+            x = self.l[i]
+            self.l = self.l[:i] + self.l[i+1:]
+            logging.info(f"Successfully popped element at {i}th position")
+            print(x)
+            return x                
+        except IndexError:
+            raise f"IndexError: {i} out of index"
+            logging.error(f"{i} greater than length of self")
+        except Exception as e:
+            raise e
+            logging.exception(f"Encountered Exception: {e}")
+                
 
-    def myclear():
+    def clear(self):
         """
         Remove all items from the list. Equivalent to del a[:].
         """
-        pass
+        try:
+            self.l = list()
+            logging.info(f"Successfully cleared the list")
+        except Exception as e:
+            logging.exception(f"Encountered Exception as {e}")
+            raise e
 
-    def myindex(x):
+    def index(self, x):
         """
         Return zero-based index in the list of the first item whose value is equal to x. 
         Raises a ValueError if there is no such item.
         """
-        pass
+        try:
+            if x in self.l:
+                for i in len(range(self.l)):
+                    if self.l[i] == x:
+                        logging.info(f"Found {x} in list at index {i}")
+                        return i
+            else:
+                logging.error(f"Value Error: {x} not found in list")
+                raise ValueError (f"{x} not found in list")
+        except Exception as e:
+            logging.exception(f"Encountered error as {e}")
 
     def mycount(x):
         """
