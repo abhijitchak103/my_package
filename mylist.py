@@ -146,26 +146,59 @@ class listfunctions:
         except Exception as e:
             logging.exception(f"Encountered error as {e}")
 
-    def mycount(x):
+    def count(self, x):
         """
         Return the number of times x appears in the list.    
         """
+        
+        try: 
+            if x in self.l:
+                logging.info(f"{x} found in accessed list")
+                i = 0
+                for ele in self.l:
+                    if ele == x:
+                        i += 1
+                logging.info(f"Found {i} instances of {x} in accessed list")
+                return i            
+            else:
+                logging.error(f"{x} not present in accessed list")
+                raise ValueError (f"{x} not in accessed list")
+        except Exception as e:
+            logging.exception (f"Encountered error as {e}")
+
+    def sort(self, reverse=False):
+        """
+        Sort the items of the list in place.
+        """
+        # Check if type of all elements is either float or int
+        # if yes, then go ahead and compare and sort
+        # if not, then check if all elements are of type  str
+        # if yes, then go ahead and compare and sort
+        # if not, then raise typerror as cannot compare between numeric and non-numeric types
+                
+        """
+        try:
+            flag = True
+            element_type = type(self.l[0])
+            while flag:
+                for element in self.l:
+                    if type(element) != element_type:
+                        flag = False
+                        logging.info("Cannot compare ") 
+        """
+
         pass
 
-    def mysort(*, key=None, reverse=False):
-        """
-        Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).
-        """
-        pass
-
-    def myreverse():
+    def reverse(self):
         """
         Reverse the elements of the list in place.
         """
+        self.l = self.l[::-1]
     
-    def mycopy():
+    def copy(self):
         """
         Return a shallow copy of the list. Equivalent to a[:].    
         """
-        pass    
+        return self.l[:]
+        
         
