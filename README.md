@@ -3,6 +3,9 @@
 This is a user defined project to create commonly used functions of different data structures like 
 
 > - list
+    > Some functionalities added are:
+    > - append()
+    > - extend()  
 > - tuple
 > - set
 > - dictionary
