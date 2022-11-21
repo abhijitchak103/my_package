@@ -209,3 +209,62 @@ TypeError: '>=' not supported between instances of 'str' and 'int'
 2022-11-13 11:58:24,837 INFO Successfully removed abhijit
 2022-11-13 11:58:24,845 INFO Successfully popped element at 5th position
 2022-11-13 11:58:24,853 INFO Successfully cleared the list
+2022-11-21 11:52:26,554 INFO Initialization succeeded.
+2022-11-21 11:52:26,554 INFO Append function succeeded.
+2022-11-21 11:52:26,560 INFO Extend function succeeded. Appended lo
+2022-11-21 11:52:26,560 INFO Extend function succeeded. Appended 2
+2022-11-21 11:52:26,560 INFO Extend function succeeded. Appended 5
+2022-11-21 11:52:26,561 INFO abhijit inserted at Index 0
+2022-11-21 11:52:26,562 INFO abhijit inserted at Index 5
+2022-11-21 11:52:26,564 INFO abhijit inserted at Index 9
+2022-11-21 11:52:26,565 INFO Successfully removed abhijit
+2022-11-21 11:52:26,566 INFO Successfully popped element at 5th position
+2022-11-21 11:52:26,569 INFO Elements of non-comparable type encountered.
+2022-11-21 11:54:03,265 INFO Initialization succeeded.
+2022-11-21 11:54:03,280 INFO Append function succeeded.
+2022-11-21 11:54:03,281 INFO Extend function succeeded. Appended lo
+2022-11-21 11:54:03,281 INFO Extend function succeeded. Appended 2
+2022-11-21 11:54:03,281 INFO Extend function succeeded. Appended 5
+2022-11-21 11:54:03,282 INFO abhijit inserted at Index 0
+2022-11-21 11:54:03,284 INFO abhijit inserted at Index 5
+2022-11-21 11:54:03,286 INFO abhijit inserted at Index 9
+2022-11-21 11:54:03,288 INFO Successfully removed abhijit
+2022-11-21 11:54:03,289 INFO Successfully popped element at 5th position
+2022-11-21 12:01:14,708 INFO Initialization succeeded.
+2022-11-21 12:01:14,708 INFO Append function succeeded.
+2022-11-21 12:01:14,712 INFO Extend function succeeded. Appended lo
+2022-11-21 12:01:14,712 INFO Extend function succeeded. Appended 2
+2022-11-21 12:01:14,713 INFO Extend function succeeded. Appended 5
+2022-11-21 12:01:14,714 INFO abhijit inserted at Index 0
+2022-11-21 12:01:14,715 INFO abhijit inserted at Index 5
+2022-11-21 12:01:14,716 INFO abhijit inserted at Index 9
+2022-11-21 12:01:14,717 INFO Successfully removed abhijit
+2022-11-21 12:01:14,718 INFO Successfully popped element at 5th position
+2022-11-21 12:02:54,336 INFO Initialization succeeded.
+2022-11-21 12:02:54,337 INFO Append function succeeded.
+2022-11-21 12:02:54,339 INFO Extend function succeeded. Appended lo
+2022-11-21 12:02:54,339 INFO Extend function succeeded. Appended 2
+2022-11-21 12:02:54,339 INFO Extend function succeeded. Appended 5
+2022-11-21 12:02:54,340 INFO abhijit inserted at Index 0
+2022-11-21 12:02:54,341 INFO abhijit inserted at Index 5
+2022-11-21 12:02:54,343 INFO abhijit inserted at Index 9
+2022-11-21 12:02:54,344 INFO Successfully removed abhijit
+2022-11-21 12:02:54,345 INFO Successfully popped element at 5th position
+2022-11-21 12:02:54,348 INFO Initialization succeeded.
+2022-11-21 12:02:54,349 INFO List sorted in ascending order.
+2022-11-21 12:02:54,351 INFO Successfully cleared the list
+2022-11-21 12:04:32,027 INFO Initialization succeeded.
+2022-11-21 12:04:32,028 INFO Append function succeeded.
+2022-11-21 12:04:32,029 INFO Extend function succeeded. Appended lo
+2022-11-21 12:04:32,029 INFO Extend function succeeded. Appended 2
+2022-11-21 12:04:32,029 INFO Extend function succeeded. Appended 5
+2022-11-21 12:04:32,030 INFO abhijit inserted at Index 0
+2022-11-21 12:04:32,032 INFO abhijit inserted at Index 5
+2022-11-21 12:04:32,033 INFO abhijit inserted at Index 9
+2022-11-21 12:04:32,035 INFO Successfully removed abhijit
+2022-11-21 12:04:32,040 INFO Successfully popped element at 5th position
+2022-11-21 12:04:32,043 INFO Initialization succeeded.
+2022-11-21 12:04:32,043 INFO List sorted in ascending order.
+2022-11-21 12:04:32,044 INFO Initialization succeeded.
+2022-11-21 12:04:32,045 INFO List sorted in ascending order.
+2022-11-21 12:04:32,047 INFO Successfully cleared the list

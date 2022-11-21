@@ -50,8 +50,22 @@ print(f"Index of '3' in the list is: {obj.l.index(3)}")
 
 print("---------------------------------")
 
-print(f"Instance before clear: {obj.l}")
-obj.clear()
-print(f"Instance after clear: {obj.l}")
+ob1 = listfunctions([3, 9.4, 7, 3.2, 0])
+print(f"Instance before sort: {ob1.l}")
+ob1.sort()
+print(f"Instance after sort: {ob1.l}")
+
+print("---------------------------------")
+
+ob2 = listfunctions(['Cab', 'ab', 'rt', 'op', 'ac', 'Cac'])
+print(f"Instance before sort: {ob2.l}")
+ob2.sort()
+print(f"Instance after sort: {ob2.l}")
+
+print("---------------------------------")
+
+print(f"Instance before clear: {ob1.l}")
+ob1.clear()
+print(f"Instance after clear: {ob1.l}")
 
 print("---------------------------------")

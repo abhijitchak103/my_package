@@ -175,19 +175,41 @@ class listfunctions:
         # if not, then check if all elements are of type  str
         # if yes, then go ahead and compare and sort
         # if not, then raise typerror as cannot compare between numeric and non-numeric types
-                
-        """
-        try:
-            flag = True
-            element_type = type(self.l[0])
-            while flag:
-                for element in self.l:
-                    if type(element) != element_type:
-                        flag = False
-                        logging.info("Cannot compare ") 
-        """
+              
+        flag = True
+        if type(self.l[0]) in [int, float]:
+            for element in self.l:
+                if type(element) not in [float, int]:
+                    flag = False
+                    break
+        elif type(self.l[0]) == str:
+            for element in self.l:
+                if type(element) != str:
+                    flag = False
+                    break
+        else:
+            flag = False
+        
+        if flag == False:
+            logging.info("Elements of non-comparable type encountered.")
+            raise TypeError
+        else:
+            try:
+                for i in range(len(self.l)):
+                    for j in range(i+1, len(self.l)):
+                        if self.l[j] < self.l[i]:
+                            temp = self.l[i]
+                            self.l[i] = self.l[j]
+                            self.l[j] = temp                            
+                logging.info("List sorted in ascending order.")
+            except Exception as e:
+                logging.exception(f"Exception encountered: {e}")
+                raise Exception
 
-        pass
+        # If reverse = True then reverse the current list
+
+        if reverse == True:
+            self.l[::-1]
 
     def reverse(self):
         """
