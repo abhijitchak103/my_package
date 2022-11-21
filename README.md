@@ -4,8 +4,11 @@ This is a user defined project to create commonly used functions of different da
 
 > - list
     > Some functionalities added are:
-    > - append()
-    > - extend()  
+        > - append()
+        > - extend()
+        > - insert()
+        > - remove()
+        > - pop()  
 > - tuple
 > - set
 > - dictionary
